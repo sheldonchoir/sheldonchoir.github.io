@@ -79,3 +79,5 @@
 .box2:hover::after {
     opacity: 1;
 }
+
+.bg-primary2{background: url(../img/piano.jpeg) no-repeat; background-position: center; background-attachment: fixed; background-size: cover;}

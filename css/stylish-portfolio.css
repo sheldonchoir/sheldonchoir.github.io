@@ -336,6 +336,10 @@ a {
 .bg-primary {
   background-color: #1D809F !important; }
 
+.bg-primary2 {
+  background-image: url(../img/piano.jpeg);
+}
+
 .text-primary {
   color: #1D809F !important; }
 

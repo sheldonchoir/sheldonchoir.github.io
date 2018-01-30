@@ -20,7 +20,7 @@
       <link href="css/animate.min.css" rel="stylesheet">
       <link rel="icon" href="http://i1378.photobucket.com/albums/ah86/Biscuit_090/Music%20Note_zpsgmfjxcnd.png">
   </head>
-  <body id="page-top">
+  <body id="page-top" onload="myAlert()">
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
@@ -47,7 +47,7 @@
     <!-- Header -->
     <header class="masthead d-flex callout" style="background-attachment: fixed;">
       <div class="container text-center my-auto">
-          <h1 class="mb-1 wow slideInUp" data-wow-delay="500ms" style="font-size: 60px; color:white;">Welcome to the <a style="color: teal;">Sheldon Choir</a></h1>
+          <h1 onload="myAlert()" id="hover" class="mb-1 wow slideInUp" data-wow-delay="500ms" style="font-size: 60px; color:white;">Welcome to the <a style="color: teal;">Sheldon Choir</a></h1>
         <h3 style="padding-bottom: 25px; padding-top: 10px;">
             <div class="wow flipInX" style="display: inline-block; color: white;" data-wow-delay="1900ms" data-wow-duration="1500ms">Soprano -
             </div>
@@ -59,11 +59,12 @@
             </div>
         </h3>
         <a class="btn btn-primary btn-xl js-scroll-trigger wow fadeInUp" href="#events" style="background-color: teal;" data-wow-delay="2300ms">Let's Get Started</a>
+                
       </div>
       <div class="overlay"></div>
     </header>
     <!-- Events Section -->
-    <section class="content-section bg-primary text-white text-center" id="events">
+    <section class="content-section bg-primary text-white text-center" style="background-color: teal;" id="events">
       <div class="container" style="padding-bottom: 80px;">
         <div class="content-section-heading">
           <h3 class="text-secondary mb-0 wow flipInX" style="font-size: 25px;">Information</h3>
@@ -462,5 +463,10 @@
               <script>
               new WOW().init();
               </script>
+<script>
+function myAlert() {
+    alert("Hey, thanks for visiting this project! This website is currently under construction and there will be some intermittently drastic changes.");
+}
+</script>
   </body>
 </html>

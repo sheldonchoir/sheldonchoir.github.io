@@ -61,7 +61,7 @@
       </div>
     </nav>
   <body id="page-top">
-      <video autoplay muted loop id="myVideo" poster="img/Riverside.jpg">
+      <video playsinline autoplay muted loop id="myVideo" poster="img/Riverside.jpg">
             <source src="img/Riverside.mp4" type="video/mp4">
           <source src="img/Riverside.ogv" type="video/ogv">
           <source src="img/Riverside.webm" type="video/webm">
@@ -98,10 +98,10 @@
 							<input type="text" class="bank-card__field" placeholder="Card Number" pattern="[0-9]{16}" name="number-card" required>
 						</label>
 					</div>
-					<div class="bank-card__inner">
+					<div class="bank-card__inner" style="text-align: left;">
 						<span class="bank-card__caption">valid thru</span>
 					</div>
-					<div class="bank-card__inner bank-card__footer">
+					<div class="bank-card__inner" style="text-align: left;">
 						<label class="bank-card__label bank-card__month">
 							<span class="bank-card__hint">Month</span>
 							<input type="text" class="bank-card__field" placeholder="MM" maxlength="2" pattern="[0-9]{2}" name="mm-card" required>
@@ -111,6 +111,7 @@
 							<span class="bank-card__hint">Year</span>
 							<input type="text" class="bank-card__field" placeholder="YY" maxlength="2" pattern="[0-9]{2}" name="year-card" required>
 						</label>
+                        <img src="img/creditcards.png" style="width: 30%;margin-left:20px;">
 					</div>
 				</div>
 				<div class="bank-card__side bank-card__side_back">

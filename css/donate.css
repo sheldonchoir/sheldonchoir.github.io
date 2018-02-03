@@ -11,6 +11,14 @@
     min-height: 100%;
 }
 
+@media screen and (max-width: 481px){
+
+    #myVideo{
+        display: none;
+        background-image: url(../img/Riverside.jpg);
+    }
+  }
+    
 .demo{
   min-height: 470px;
   box-sizing: border-box;

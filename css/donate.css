@@ -14,8 +14,8 @@
 @media screen and (max-width: 480px){
 
     #myVideo{
-        display: none;
         background-image: url(../img/Riverside.jpg);
+        visibility: hidden;
     }
   }
     

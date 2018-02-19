@@ -297,7 +297,7 @@ a:hover{
 }
 
 .fakeMenu {
-  width: 350px;
+  width: 330px;
   box-sizing: border-box;
   height: 25px;
   background-color: #bbb;
@@ -310,7 +310,7 @@ a:hover{
 .fakeScreen {
   background-color: #151515;
   box-sizing: border-box;
-  width: 350px;
+  width: 330px;
   margin: 0 auto;
   padding: 20px 0px 20px 0px;
   border-bottom-left-radius: 5px;

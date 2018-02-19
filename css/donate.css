@@ -36,6 +36,15 @@ a{
   color: #000;
 }
 
+.bg-img-donate{
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/galaxy.png);
+}
+
 a:hover{
   text-decoration: none;
   color: white;

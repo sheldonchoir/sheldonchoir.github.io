@@ -312,7 +312,7 @@ a:hover{
   box-sizing: border-box;
   width: 350px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }

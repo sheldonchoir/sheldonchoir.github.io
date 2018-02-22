@@ -11,7 +11,6 @@ body,html{width:100%;height:100%}body{font-family:'Source Sans Pro'}.btn-xl{padd
   border: solid #1485cc 1px;
   text-decoration: none;
 }
-
 .btn-info:hover {
   background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
@@ -19,8 +18,7 @@ body,html{width:100%;height:100%}body{font-family:'Source Sans Pro'}.btn-xl{padd
   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-    
+  text-decoration: none; 
 }
 
 /*!

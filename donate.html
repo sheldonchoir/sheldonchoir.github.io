@@ -73,9 +73,38 @@
             <h1 style="color: white;" id="demo"></h1>
             </div>
         </h3>
-
+            <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center wow fadeInUp" data-wow-delay="400ms">
+            <div class="card-body">
+              <h4 class="card-title">Anonymous _</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Donation</h6>
+              <div class="row" style="justify-content: center;">
+                <i class="fas fa-dollar-sign" style="color: black; margin-top: 5px; font-size: 15px;"></i>
+            <h3 style="color: black;" id="demo">10.00</h3>
+                  
+            </div>
+                <h6 style="color: teal !important; font-size: 18px;"><i>"Hope this will help, can't wait for the next concert!"</i></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4" style="opacity: 0.2;">
+          <div class="card h-100 text-center wow fadeInUp" style="border: dotted" data-wow-delay="600ms">
+            <div class="card-body container text-center">
+              <i class="fas fa-user-plus" style="font-size: 50px;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4" style="opacity: 0.2;">
+          <div class="card h-100 text-center wow fadeInUp" style="border: dotted" data-wow-delay="800ms">
+            <div class="card-body">
+              <i class="fas fa-user-plus" style="font-size: 50px;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
 			<div class="payment-card__footer">
-                <a class="btn btn-primary btn-xl js-scroll-trigger wow fadeInUp box2" href="https://form.jotform.com/80518498584168" style="background-color: royalblue; font-size: 20px; padding: 20px;" data-wow-delay="1000ms" target="_blank">Click to view Donation Form 💌</a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger box2" href="https://form.jotform.com/80518498584168" style="background-color: royalblue; font-size: 20px; padding: 20px; justify-content: center;" data-wow-delay="1000ms" target="_blank">Click to view Donation Form 💌</a>
 			</div>
       </div>
     </header>
@@ -100,7 +129,7 @@
         separator: ',', 
         decimal: '.', 
       };
-          var demo = new CountUp('demo', 0, 10, 2, 3.5, options);
+          var demo = new CountUp('demo', 0, 10, 2, 4.0, options);
 if (!demo.error) {
   demo.start();
 } else {

@@ -2,448 +2,194 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=414, initial-scale=1.0">
-    <meta name="viewport" content="width=1024, initial-scale=1.0">
-    <meta name="viewport" content="width=667, initial-scale=1.0">
-    <meta name="viewport" content="width=360, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>SHS Choir</title>
-    <!-- Bootstrap Core CSS -->
+
+    <title>SHS Choirs - Under Construction</title>
+    <!-- Bootstrap core CSS -->
+		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="faa-animated.min.css">
-      <link href="css/animate.min.css" rel="stylesheet">
-      <link rel="icon" href="http://i1378.photobucket.com/albums/ah86/Biscuit_090/Music%20Note_zpsgmfjxcnd.png">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
   </head>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand teal-hover" href="index.html" style="font-family: 'Source Sans Pro'; font-weight: 600;">The Sheldon Choir 🎼</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">The Sheldon Choir</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link js-scroll-trigger" href="#page-top"><i class="fas fa-home"></i> Home</a>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#header">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#events"><i class="fas fa-calendar-alt"></i> Events<sup> <i class="fa fa-exclamation-circle faa-flash faa-slow animated" style="color: forestgreen; font-size: 15px;"></i></sup></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-shopping-cart"></i> Online Store
-                </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="index.html#store">Buy Vocal T-Shirt</a>
-                <a class="dropdown-item" href="index.html#store">Honor Choir Audition</a>
-                  <a class="dropdown-item" href="tri-tip.html">Tri-Tip Dinner <sup><i class="far fa-circle faa-burst animated" style="color: red; font-size: 15px;"></i></sup></a>
-                <a class="dropdown-item" href="donate.html">Donate <sup> <i class="fa fa-code faa-flash faa-slow animated" style="color: dodgerblue;"></i></sup></a>
-              </div>
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#portfolio"><i class="fas fa-folder-open"></i> Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
-              <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#about"><i class="fas fa-users"></i> About Us</a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="donate.html"><i class="fas fa-heart"></i> Donate <sup> <i class="fa fa-code faa-flash faa-slow animated" style="color: dodgerblue; font-size: 15px;"></i><i class="far fa-circle faa-burst faa-slow animated" style="color: red; font-size: 15px; margin-left: -16px;"></i></sup></a>
-            </li>
-              <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" style="justify-content: center;"></a>
-              </li>
-              <li class="nav-item" onload="myTimer()" style="justify-content: center; color: white; opacity: 0.6; padding: 0;">
-              <a class="nav-link" id="clock"></a>
-              </li>
           </ul>
         </div>
       </div>
-        
     </nav>
-  <body id="page-top">
-    <header class="masthead d-flex callout" style="background-attachment: fixed;">
-      <div class="container text-center my-auto">
-          <h1 class="mb-1 wow slideInUp" data-wow-delay="500ms" style="font-size: 60px; color:white;">Welcome to the <a style="color: teal;">Sheldon Choir 🎼</a></h1>
-        <h3 style="padding-bottom: 25px; padding-top: 10px;">
-            <div class="wow flipInX" style="display: inline-block; color: white;" data-wow-delay="1900ms" data-wow-duration="1500ms">Soprano -
+
+    <!-- Intro Header -->
+    <header class="masthead" id="header">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 style="text-transform: none !important;">This website is under construction.</h1>
+							<div class="container">
+							 <h4 style="margin-bottom:20px;text-decoration:underline;">Expected down time:&nbsp;</h4>
+							 <h2 id="demo"></h2>
+							</div>
+              <a href="#faq" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
             </div>
-            <div class="wow flipInX" style="display: inline-block; color: white;" data-wow-delay="2000ms" data-wow-duration="1500ms">Alto -
-            </div>
-            <div class="wow flipInX" style="display: inline-block; color: white;" data-wow-delay="2100ms" data-wow-duration="1500ms">Tenor -
-            </div>
-            <div class="wow flipInX" style="display: inline-block; color: white;" data-wow-delay="2200ms" data-wow-duration="1500ms">Bass
-            </div>
-        </h3>
-          <center>
-          <div class="row" style="justify-content: center;">
-        <a class="btn btn-primary btn-xl js-scroll-trigger wow fadeInUp button5" href="#events" style="background-color: teal; border-radius: 30px; font-size: 20px;" data-wow-delay="2300ms">Let's Get Started</a>
-              <button onclick="toggleVisibility();" style="margin-left: 10px;" class="btn-info wow fadeInUp" data-wow-delay="2300ms">
-                  Info 💬
-                  <i class="fas fa-angle-down" id="angle"></i>
-              </button>
           </div>
-          </center>
-          <center>
-              <div class="container" style="visibility: hidden;">
-          <div class="alert alert-info animated shake" style="margin-top: 1.3em; opacity: 0.8; width: 60%;" id="toggleVisibility">
-              <u><b>Please review the following information before continuing:</b></u><br>
-              The '<i class="fa fa-exclamation-circle faa-flash faa-slow animated" style="color: forestgreen;"></i>' symbol indicates new content made available since <strong>2/28/18</strong>.<br> The '<i class="fa fa-code faa-flash faa-slow animated" style="color: dodgerblue"></i>' symbol indicates a page that is currently under construction.<br> The '<i class="far fa-circle faa-flash faa-slow animated" style="color: red;"></i>' symbol indicates content that has been recently updated.
         </div>
-        </div>
-          </center>
       </div>
     </header>
-      
-    <!-- Events Section -->
-      
-    <section class="content-section bg-primary text-white text-center" style="background-color: teal !important;" id="events">
-      <div class="container" style="padding-bottom: 80px;">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0 wow flipInX" style="font-size: 25px; color: #333!important;">Information</h3>
-          <h2 class="mb-5 wow fadeInUp" style="font-size: 50px;">Upcoming Events 📅</h2>
-        </div>
-            <div class="row">
-        <div class="col-lg-6 mb-4">
-          <div class="card h-100 wow fadeInUp box2" style="color: #222;">
-              <h3 class="card-header" style="color: teal;"><a href="tri-tip.html">Tri-Tip Dinner Fundraiser 🍴</a></h3>
-              
-            <div class="card-body" style="padding: 42px;">
-                <div style="font-size: 28px;"><b>Support us and buy a Tri-Tip Dinner!</b></div>
-              <div class="font-italic">Click 'View Event' for details</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                <a href="tri-tip.html" class="btn teal-hover box2" style="background-color: #444; color: white;">View Event <sup><i class="fa fa-exclamation-circle" style="color:forestgreen;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-            <div class="col-lg-6 mb-4">
-          <div class="card h-100 wow fadeInUp box2" style="color: #222;">
-              <h3 class="card-header" style="color: teal;"><a href="fall-concert.html">Fall Concert 🎼</a></h3>
-            <div class="card-body" style="padding: 42px;">
-                <div style="font-size: 30px;"><b>Come see our first concert!</b></div>
-              <div class="font-italic">Click 'View Event' to be re-directed</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                <a href="fall-concert.html" class="btn teal-hover box2" style="background-color: #444; color: white;">View Event <sup><i class="fa fa-exclamation-circle" style="color:forestgreen;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div><div class="col-lg-6 mb-4">
-          <div class="card h-100 box2 wow fadeInUp" style="color: #222;">
-              <h3 class="card-header" style="color: teal;"><a href="winter-concert.html">Winter Concert 🎙️</a></h3>
-            <div class="card-body" style="padding: 35px;">
-                <div style="font-size: 30px;"><b>Come see our final concert of 2017!</b></div>
-              <div class="font-italic">Click 'View Event' for more details</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                <a href="winter-concert.html" class="btn teal-hover box2" style="background-color: #444; color: white;">View Event <sup><i class="fa fa-exclamation-circle" style="color:forestgreen;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div><div class="col-lg-6 mb-4">
-          <div class="card h-100 wow fadeInUp box2" style="color: #222;">
-              <h3 class="card-header" style="color: teal;"><a href="spring-concert.html">Spring Concert 🎶</a></h3>
-            <div class="card-body" style="padding: 30px;">
-                <div style="font-size: 30px;"><b>Our Final Concert!</b></div>
-              <div class="font-italic">Click 'View Event' to be re-directed</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item" >
-                <a href="spring-concert.html" class="btn teal-hover box2" style="background-color: #444; color: white;">View Event <sup><i class="fa fa-exclamation-circle" style="color:forestgreen;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-          <a class="btn btn-primary btn-xl js-scroll-trigger box2" href="#store" style="font-size: 20px;">Visit Online Store 🛒</a>
-        </div>
-    </section>
-      
-    <!-- Store Section -->
-      
-    <section class="content-section bg-primary1 text-white text-center" id="store">
-      <div class="container text-center my-auto">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0 wow fadeInUp" style="font-size: 30px; color: teal;" data-wow-duration="400ms" data-wow-delay="500ms">Purchase Items/Merchandise</h3>
-          <h2 class="mb-5 wow fadeInUp" style="font-size: 65px;" data-wow-duration="400ms" data-wow-delay="500ms">Online Store 🛒</h2>
-        </div>
-          <div class="col-lg-10 container">
-          <div id="carouselExampleIndicators" class="carousel slide my-4 wow fadeInUp" data-wow-delay="400ms" data-ride="carousel" data-wow-duration="500ms">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <img class="d-block img-fluid" src="img/pexels3.png" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/pexels1.png">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/pexels2.png" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>              
-              <div class="row">
-        <div class="col-lg-6 mb-4">
-          <div class="card h-100 box2 wow fadeInUp" style="color: #222;">
-            <h3 class="card-header" style="color: teal;">Vocal T-Shirt 👔</h3>
-              <li class="list-group-item" style="background-color: #444;"><a href="#"><img class="card-img-top" src="img/pexels4.png" alt=""></a></li>
-            <div class="card-body">
-              <div class="display-4">$19.99</div>
-              <div class="font-italic">Click 'Buy Now' for details</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                  <a href="#events" class="btn teal-hover box2" style="background-color: #444; color: white;"><del>&nbsp;Buy Now&nbsp;</del> <sup> <i class="fa fa-code faa-flash animated faa-slow" style="color: dodgerblue; font-size: 13px;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-            <div class="col-lg-6 mb-4">
-          <div class="card h-100 box2 wow fadeInUp" style="color: #222;">
-            <h3 class="card-header" style="color: teal;">Honor Choir Audition 🎤</h3>
-              <li class="list-group-item" style="background-color: #444;"><a href="#"><img class="card-img-top" src="img/pexels5.png" alt=""></a></li>
-            <div class="card-body">
-              <div class="display-4">$24.99</div>
-              <div class="font-italic">Click 'Audition Form' to be re-directed</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                <a href="http://calcda.org/wp-content/uploads/2012/10/Audition-Form-template-2017-2018.pdf" class="btn teal-hover box2" style="background-color: #444; color: white;">Audition Form<sup> <i class="fa fa-code faa-flash faa-slow animated" style="color: dodgerblue; font-size: 15px;"></i><i class="far fa-circle faa-burst faa-slow animated" style="color: red; font-size: 15px; margin-left: -16px;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div><div class="col-lg-6 mb-4">
-          <div class="card h-100 box2 wow fadeInUp" style="color: #222;">
-              <h3 class="card-header" style="color: teal;"><a href="tri-tip.html">Purchase Tri-Tip Dinner 🍖</a></h3>
-              <li class="list-group-item" style="background-color: #444;"><a href="#"><img class="card-img-top" src="img/pexels6.png" alt=""></a></li>
-            <div class="card-body">
-              <div class="display-4">$49.99</div>
-              <div class="font-italic">Click 'Learn More' for more details</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                <a href="tri-tip.html" class="btn teal-hover box2" style="background-color: #444; color: white;">Learn More <i class="fa fa-sign-in-alt" style="color: teal;"></i><i class="far fa-circle faa-burst faa-slow animated" style="color: red; font-size: 15px; margin-left: -14px;"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div><div class="col-lg-6 mb-4">
-          <div class="card h-100 box2 wow fadeInUp" style="color: #222;">
-            <h3 class="card-header" style="color: teal;">Donate 💕</h3>
-              <li class="list-group-item" style="background-color: #444"><a href="#"><img class="card-img-top" src="img/pexels7.png" alt=""></a></li>
-            <div class="card-body">
-              <div class="display-4">$5-</div>
-              <div class="font-italic">Click 'Donation Page' to be re-directed</div>
-            </div>
-            <ul class="list-group list-group-flush">              
-              <li class="list-group-item">
-                <a href="donate.html" class="btn teal-hover box2" style="background-color: #444; color: white;">Donation Page <sup> <i class="fa fa-code faa-flash faa-slow animated" style="color: dodgerblue; font-size: 15px;"></i><i class="far fa-circle faa-burst faa-slow animated" style="color: red; font-size: 15px; margin-left: -16px;"></i></sup></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-          </div>
-        </div>
-        <a class="btn btn-primary btn-xl js-scroll-trigger box2" href="#portfolio" style="font-size: 20px;">View Our Portfolio 📝</a>
-      </section>
-      
-    <!-- Portfolio Section -->
-      
-      <section class="content-section" id="portfolio">
+		
+		<!--FAQ-->
+<section class="features-icons text-center" id="faq">
+	<h1 style="text-transform: none;">Frequently Asked Questions</h1>
       <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary  wow flipInX" style="font-size: 25px;">Portfolio</h3>
-          <h2 class="mb-5 wow fadeInUp">Recent Activity 📝</h2>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 wow zoomIn">
-            <a class="portfolio-item" href="https://www.youtube.com/results?search_query=sheldon+high+school+choir" target="_blank">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2 style="font-size: 20px;">YouTube <i style="color: red;" class="fab fa-youtube"></i></h2>
-                  <p class="mb-0">Watch the latest uploads/segments from our latest concert on YouTube</p>
-                </span>
-              </span>
-              <img class="img-fluid thumbnail" src="http://i1378.photobucket.com/albums/ah86/Biscuit_090/contact-bg_zpsvwoo85x2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6 wow zoomIn">
-            <a class="portfolio-item" href="https://www.instagram.com/shs_choirs/" target="_blank">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2 style="font-size: 20px;">Instagram <i class="fab fa-instagram"></i></h2>
-                    <p class="mb-0">Stay up-to-date on the latest and greatest - Follow our Instagram page <b style="background-color: teal; color: white;">@shs_choirs</b></p>
-                </span>
-              </span>
-              <img class="img-fluid" src="https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6 wow zoomIn">
-            <a class="portfolio-item" href="https://github.com/sheldonchoir" target="_blank">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2 style="font-size: 20px;">Github <i style="color: mediumpurple;" class="fab fa-github"></i></h2>
-                  <p class="mb-0">View this website's changelog on GitHub</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="http://i1378.photobucket.com/albums/ah86/Biscuit_090/github_zpswaoaceau.jpeg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6 wow zoomIn">
-            <a class="portfolio-item js-scroll-trigger" href="#about">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2 style="font-size: 20px;">Learn More About Us &nbsp;<i style="color: dodgerblue;" class="fas fa-info-circle"></i></h2>
-                  <p class="mb-0">Click to scroll down and learn more about our singers, performances and where you can find us</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="http://i1378.photobucket.com/albums/ah86/Biscuit_090/vinyl_zps1ftubkmp.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>   
-      
-    <!-- About Section -->
-      
-    <section class="content-section bg-primary2 text-white text-center" id="about" style="padding-bottom: 300px;">
-      <div class="container">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0 wow flipInX" style="font-size: 25px;">Information</h3>
-          <h2 class="mb-5 wow flipInX" style="padding-bottom: 40px; font-size: 65px;" data-wow-duration="500ms">About Us 📋</h2>
-        </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3 wow fadeInUp" data-wow-duration="300ms">
-              <i class="fa fa-music faa-tada faa-fast animated-hover"></i>
-            </span>
-            <h4 class="wow fadeInUp" data-wow-duration="400ms">
-              <strong>Commitment 💯</strong>
-            </h4>
-              <p class="text-faded mb-0 wow fadeInUp" data-wow-duration="400ms">Giving it <b>maximum effort</b> all day, every day.</p>
+          <div class="col-lg-4 box-shadow" style="background-color: #333; border-radius: 2%;">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="d-flex">
+                <i class="far fa-question-circle m-auto text-primary size"></i>
+              </div>
+              <h3 style="text-transform: none;">Why the long wait?</h3>
+							<p class="lead mb-0" style="font-family: 'Cabin'">In short, <a style="text-decoration: underline;color:turquoise;">I'm a one man team</a> who has many other clients and juggles college along with two separate jobs. Unfortunately, this leaves very little free time for me to develop larger projects like this one. Thanks for understanding.</p>
+            </div>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3 wow fadeInUp" data-wow-duration="300ms">
-              <i class="fa fa-users faa-tada faa-fast animated-hover"></i>
-            </span>
-            <h4 class="wow fadeInUp" data-wow-duration="300ms">
-              <strong>Singers 🤵</strong>
-            </h4>
-              <p class="text-faded mb-0 wow fadeInUp" data-wow-duration="400ms"><b>75 Singers.</b> <em><b>One Hebert.</b></em> What more could you ask for?</p>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="d-flex">
+                <i class="far fa-question-circle m-auto text-primary size"></i>
+              </div>
+              <h3 style="text-transform: none;">Do you need help?</h3>
+							<p class="lead mb-0" style="font-family: 'Cabin'">Yes.<br>If you're fluent in <b style="color: dodgerblue;">PHP</b> or <a style="color: orange;">AJAX</a>, I could use a hand with the optimization of a couple of sections throughout the new build of the site, as well as a fully functional e-mail script. Knowledge of <a style="color: forestgreen;">Bootstrap</a> is also helpful and can speed up production.</p>
+            </div>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3 wow fadeInUp" data-wow-duration="300ms">
-              <i class="fa fa-newspaper animated-hover faa-fast faa-tada"></i>
-            </span>
-            <h4 class="wow fadeInUp" data-wow-duration="300ms">
-              <strong>Performances 🎹</strong>
-            </h4>
-            <p class="text-faded mb-0 wow fadeInUp" data-wow-duration="400ms">Hundreds of performances past-present.</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3 wow fadeInUp" data-wow-duration="300ms">
-              <i class="fa fa-trophy faa-tada faa-fast animated-hover"></i>
-            </span>
-            <h4 class="wow fadeInUp" data-wow-duration="300ms">
-              <strong>Awards 🏆</strong>
-            </h4>
-            <p class="text-faded mb-0 wow fadeInUp" data-wow-duration="400ms">Over 50 awards won in vocal excellence.</p>
+          <div class="col-lg-4 box-shadow" style="background-color: #333; border-radius: 2%;">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="d-flex">
+                <i class="far fa-question-circle m-auto text-primary size"></i>
+              </div>
+              <h3 style="text-transform: none;">Where can I find the changelog?</h3>
+							<p class="lead mb-0" style="font-family: 'Cabin'">Well, for starters, there's the <a href="https://github.com/sheldonchoir/sheldonchoir.github.io" target="_blank">GitHub Repository</a>. The project is read-only ATM, but once I release the basic framework, you'll be able to see any changes to code, scripts, etc. Also if you want to suggest changes <b style="color:red;">* LIVE *</b> I'd be happy to screen-share via <a style="color: mediumpurple;" href="https://discordapp.com/" target="_blank">Discord</a>. Add me: @Biscuit5274.</p>
+            </div>
           </div>
         </div>
-          <a class="btn btn-primary btn-xl js-scroll-trigger box2" href="survey.html" style="font-size: 20px; margin-top: 50px;">Website Survey <i style="color: teal;" class="fas fa-pencil-alt"></i></a>
       </div>
-      </section>
-
-    <!-- Google Maps -->
-      
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.3526649521364!2d-121.35051494872967!3d38.45641877954114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac136f9ef4913%3A0x63b62fec6bc02b6a!2sSheldon+High+School!5e0!3m2!1sen!2sus!4v1514805001921"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
     </section>
-      
-    <!-- Footer -->
-      
-    <footer class="footer text-center" style="background-color: #222;">
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center" style="background-color: #222; padding: 130px 0px 130px 0px;">
       <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3 box2" href="https://www.instagram.com/shs_choirs/" target="_blank">
-              <i class="icon-social-instagram"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3 box2" href="https://www.youtube.com/results?search_query=sheldon+high+school+choir" target="_blank">
-              <i class="icon-social-youtube"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white box2" href="https://github.com/sheldonchoir" target="_blank">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-        </ul>
-        <p class="text-muted small mb-0" style="font-size: 18px;">Copyright &copy; Ryan Farruggia 👨‍🎓 2017 - 2018</p>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1>Contact Me</h1>
+						<p>Hey, I'm Ryan Farruggia. An alumni dude from the Sheldon Choir.</p>
+						<p>Feel free to contact me using any of the outlets provided. If you have a suggestion, please e-mail me the details of your suggestion and any other relevant information, including images (<a style="color: dodgerblue;">.png</a>, <a style="color: orange;">.jpg</a>) you feel would be useful.</p>
+						<hr>
+						<span style="font-size: 20px; font-family: 'Cabin'; color: turquoise;">IMPORTANT:</span>
+						<p>If you do not own a Facebook account or are not logged in, you will not be able to message me.</p>
+						<p class="demo" style="text-size: 30px;"></p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/rfarr99" class="btn btn-default btn-lg" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                  <span class="network-name">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/sheldonchoir/sheldonchoir.github.io" class="btn btn-default btn-lg" target="_blank">
+                  <i class="fab fa-github"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#contact" onclick="showEmail()" class="btn btn-default btn-lg" id="trigger">
+                  <i class="fas fa-envelope-open"></i>
+                  <span class="network-name">E-Mail</span>
+                </a>
+              </li>
+							<p style="display: none;" id="email">rjfarruggia@gmail.com</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Ryan Farruggia 2018</p>
       </div>
     </footer>
-      
-    <!-- Scroll to Top Button-->
-      
-    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fa fa-angle-up"></i>
-    </a>
-      
+
     <!-- Bootstrap core JavaScript -->
-      
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      
+
     <!-- Plugin JavaScript -->
-      
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-      
+		
     <!-- Custom scripts for this template -->
-      
-    <script src="js/stylish-portfolio.min.js"></script>
-      
-      <!-- wow.min.js -->
-      
-    <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
-      <script>
-    document.addEventListener('DOMContentLoaded', function () {
-    $('button').on('click', function () {
-      $(this)
-        .find('[data-fa-i2svg]')
-        .toggleClass('fa-angle-down')
-        .toggleClass('fa-angle-up');
-    });
-  });
-      </script>
+    <script src="js/grayscale.min.js"></script>
+		<script>
+
+// Setting the reveal date:
+var countDownDate = new Date("July 31, 2018 12:00:00").getTime();
+
+// Update the count down every 1000 milliseconds
+var countdownfunction = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+		<script>
+				function showEmail() {
+					var x1 = document.getElementById("trigger");
+					var x2 = document.getElementById("email");
+					x2.style.display = "block";
+				}
+		</script>
   </body>
+
 </html>

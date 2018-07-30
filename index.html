@@ -1,200 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>SHS Choirs - Under Construction</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Small Business - Start Bootstrap Template</title>
+		<link href='css/animate.min.css' rel="stylesheet" type="text/css">
     <!-- Bootstrap core CSS -->
-		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="css/font-animate.css" type="text/css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/small-business.css" rel="stylesheet">
+
   </head>
-	
-  <body id="page-top">
+	<style>
+.progress-bar {
+    background-color: #1a1a1a;
+    height: 30px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+}
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">The Sheldon Choir</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#header">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
-            </li>
-						<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#links">Links</a>
-            </li>
-						<li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;    
+}
+.blue span {
+    background-color: deepskyblue;   
+}
+
+.green span {
+    background-color: limegreen;
+    background-image: linear-gradient(top, #a5df41, #4ca916);  
+}
+.shine span {
+    position: relative;
+}
+
+.shine span::after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 3px;
+    animation: animate-shine 2s ease-out infinite;             
+}
+
+@keyframes animate-shine {
+    0% {opacity: 0; width: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 0; width: 95%;}
+}
+
+	input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+		-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+	input[type=password]:focus {
+		width: 100% !important;
+}
+	</style>
+  <body style='background-color: #1c1c1e' onload="move();move2();move3()">
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Heading Row -->
+      <div class="row my-4">
+        
+        <!-- /.col-lg-8 -->
+        <div class="col-lg-4" style="color: white;">
+					<div class="container" style="justify-content: center; vertical-align: middle; margin-top: 30%">
+          <h1>Uploading Files</h1>
+						<p>Welcome. I'm almost finished with the overhaul/complete re-design of the website. Since the project is nearing <i style="color: lime">BETA</i> completion, I've decided to start uploading the files from the project domain for you all to enjoy.</p>
+						<p><a style="color: orange;">If you're one of the team leaders</a> and you want to know what you'll be working with, enter your password below to watch a video I've made showing important features you should get familiar with on the new site.</p>
+						<p style="color: deepskyblue;">* A special temporary password is required to access this content.</p>
+						
+						
+						
+ 						<input id='password1' style="width: 70%; color: turquoise;" type="password" name="password" placeholder="Password">
+						<p id="validate-status"></p>
+						
+						
+						
+						
+						
+					</div>
         </div>
+				<div class="col-lg-8">
+          <img class="img-fluid rounded" src="loading.gif" alt="" style="transform: scaleY(0.95)">
+        </div>
+        <!-- /.col-md-4 -->
       </div>
-    </nav>
+      <!-- /.row -->
 
-    <!-- Intro Header -->
-    <header class="masthead" id="header">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 style="text-transform: none !important;">This website is under construction.</h1>
-							<div class="container">
-							 <h4 style="margin-bottom:20px;text-decoration:underline;">Expected down time:&nbsp;</h4>
-							 <h2 id="demo"></h2>
+      <!-- Content Row -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Main Framework <i style="color: deepskyblue;" class="faa-spin animated"></i></h2>
+              <p class="card-text">Main framework files include HTML, CSS, JavaScript, jQuery requests &amp; libraries, .gitignore &amp; .travis files, and a small readme.md file for the GitHub Repository.</p>
+							
+							<div class="progress-bar green shine">
+    					<span style="width: 64%"></span>
 							</div>
-              <a href="#schedule" class="btn btn-circle js-scroll-trigger"> 
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
+						</div>
+          </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+							<h2 class="card-title">Plugins/Vendor</h2>
+              <p class="card-text">Plugins and vendor script usage include Font Awesome Icons, Animate.css, wow.min.js, jQuery pre-loaders, any and all .json files, and package-lock.json.</p>
+							<div class="progress-bar green shine">
+    					<span style="width: 45%"></span>
+							</div>
+							</div>
+            </div>
+          </div>
+				<div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+							<h2 class="card-title">Images/GIF's</h2>
+              <p class="card-text">Images and .gif's in circulation are currently stock photos, thanks to <a href="https://pexels.com/" target="_blank">pexels.com</a> for providing free, quality photography for use on the web.</p>
+							<div class="progress-bar green shine">
+    					<span style="width: 90%"></span>
+							</div>
+							</div>
             </div>
           </div>
         </div>
-      </div>
-		</header>
-		
-		<!--Down times-->
-		<section id="schedule" class="content-section text-center" style="background-color: #222; padding: 130px 0px 130px 0px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1>Expected Schedule</h1>
-						<h3 style="text-transform: none; margin-bottom: 0;"><i class="fa fa-check" style="color:limegreen;">&nbsp;</i>Basic Framework Upload</h3>
-						<hr style="border-color: turquoise;">
-						<h3 style="text-transform: none; margin-bottom: 15px;"><i class="fa fa-check" style="color:limegreen;">&nbsp;</i>CSS &amp; JS Styling/Backend Finalized</h3>					
-						<hr style="border-color: turquoise;">
-						<h3 style="text-transform: none; margin-bottom: 15px;"><i class="fa fa-check" style="color:limegreen;">&nbsp;</i>Analytics/Security Plugins</h3>
-						<h4 style="font-family: Arial;text-transform: none;margin-bottom: 0;">
-							Developer: 
-							<i style="color: deepskyblue;">
-								Away
-							</i>
-						</h4>
-						<hr style="border-color: turquoise;">
-						<h3 style="text-transform: none; margin-bottom: 0;"><i class="fas fa-code" style="color:dodgerblue;animation: flash infinite 2.5s;">&nbsp;</i>Media Queries (Mobile-Friendly): 7/31/18</h3>
-						<hr style="border-color: turquoise;">
-						<h3 style="text-transform: none; margin-bottom: 0;">Project Completion &amp; Release: 8/15/18</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-		<!--Links-->
-		<section id="links" class="content-section text-center" style="background-color: #333; padding: 130px 0px 130px 0px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1>links</h1>
-						<a href="https://projectlotus.github.io/" target="_blank"><h2>Click here for the <b style="color: orange;">basic framework</b><sup> *NEW*</sup></h2></a>
-						<a href="https://github.com/sheldonchoir/sheldonchoir.github.io"><h4>Click here for <b style="color: mediumpurple;">github</b> repository</h4></a>
-						<a href="https://discordapp.com/" target="_blank"><h4>Click here to <b style="color: dodgerblue;">download discord</b></h4></a>
-          </div>
-        </div>
-      </div>
-    </section>
-		<!-- Contact Section -->
-    <section id="contact" class="content-section text-center" style="background-color: #222; padding: 130px 0px 130px 0px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1>Contact Me</h1>
-						<p>Hey, I'm Ryan Farruggia. An alumni dude from the Sheldon Choir.</p>
-						<p>Feel free to contact me using any of the outlets provided. If you have a suggestion, please e-mail me the details of your suggestion and any other relevant information, including images (<a style="color: dodgerblue;">.png</a>, <a style="color: orange;">.jpg</a>) you feel would be useful.</p>
-						<hr style="border-color: turquoise;">
-						<span style="font-size: 20px; font-family: 'Cabin'; color: turquoise;">IMPORTANT:</span>
-						<p>If you do not own a Facebook account or are not logged in, you will not be able to message me.</p>
-						<p class="demo" style="text-size: 30px;"></p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/rfarr99" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fab fa-facebook"></i>
-                  <span class="network-name">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/sheldonchoir/sheldonchoir.github.io" class="btn btn-default btn-lg" target="_blank">
-                  <i class="fab fa-github"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#contact" onclick="showEmail()" class="btn btn-default btn-lg" id="trigger">
-                  <i class="fas fa-envelope-open"></i>
-                  <span class="network-name">E-Mail</span>
-                </a>
-              </li>
-							<p style="display: none;" id="email">rjfarruggia@gmail.com</p>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Ryan Farruggia 2018</p>
-      </div>
-    </footer>
 
+			
+        <!-- /.col-md-4 -->
+      </div>
+      <!-- /.row -->
+
+    <!-- /.container -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-		
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-		<script>
-
-// Setting the reveal date:
-var countDownDate = new Date("July 31, 2018 12:00:00").getTime();
-
-// Update the count down every 1000 milliseconds
-var countdownfunction = setInterval(function() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(countdownfunction);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
-		<script>
-				function showEmail() {
-					var x1 = document.getElementById("trigger");
-					var x2 = document.getElementById("email");
-					x2.style.display = "block";
-				}
-		</script>
+		<script src="main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </body>
 
 </html>

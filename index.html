@@ -8,7 +8,7 @@
     <meta name="author" content="">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>SHS Choirs</title>
-		<link href='css/animate.min.css' rel="stylesheet" type="text/css">
+		<link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/font-animate.css" type="text/css" rel="stylesheet">
@@ -17,75 +17,80 @@
 
   </head>
 	<style>
-.progress-bar {
-    background-color: #1a1a1a;
-    height: 30px;
-    padding: 5px;
-    width: 90%;
-    border-radius: 5px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
-}
+		@media only screen and (max-width: 1200px) {
+			.hide1 {
+				display: none;
+			}
+		}
+      .progress-bar {
+          background-color: #1a1a1a;
+          height: 30px;
+          padding: 5px;
+          width: 100%;
+          border-radius: 5px;
+          box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+      }
 
-.progress-bar span {
-    display: inline-block;
-    height: 100%;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
-    transition: width .4s ease-in-out;    
-}
-.blue span {
-    background-color: deepskyblue;   
-}
+      .progress-bar span {
+          display: inline-block;
+          height: 100%;
+          border-radius: 3px;
+          box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+          transition: width .4s ease-in-out;
+      }
+      .blue span {
+          background-color: deepskyblue;
+      }
 
-.green span {
-    background-color: limegreen;
-    background-image: linear-gradient(top, #a5df41, #4ca916);  
-}
-.shine span {
-    position: relative;
-}
+      .green span {
+          background-color: limegreen;
+          background-image: linear-gradient(top, #a5df41, #4ca916);
+      }
+      .shine span {
+          position: relative;
+      }
 
-.shine span::after {
-    content: '';
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #fff;
-    border-radius: 3px;
-    animation: animate-shine 2s ease-out infinite;             
-}
+      .shine span::after {
+          content: '';
+          opacity: 0;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #fff;
+          border-radius: 3px;
+          animation: animate-shine 2s ease-out infinite;
+      }
 
-@keyframes animate-shine {
-    0% {opacity: 0; width: 0;}
-    50% {opacity: .5;}
-    100% {opacity: 0; width: 95%;}
-}
+      @keyframes animate-shine {
+          0% {opacity: 0; width: 0;}
+          50% {opacity: .5;}
+          100% {opacity: 0; width: 95%;}
+      }
 
-	input[type=password] {
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    padding: 12px 20px 12px 20px;
-		-webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-	input[type=password]:focus {
-		width: 100% !important;
-}
+      	input[type=password] {
+          width: 100%;
+          box-sizing: border-box;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          padding: 12px 20px 12px 20px;
+      		-webkit-transition: width 0.4s ease-in-out;
+          transition: width 0.4s ease-in-out;
+      }
+      	input[type=password]:focus {
+      		width: 100% !important;
+      }
 	</style>
-  <body style='background-color: #1c1c1e' onload="move();move2();move3()">
+  <body style="background-color: #1c1c1e" onload="move();move2();move3()">
 
     <!-- Page Content -->
     <div class="container">
 
       <!-- Heading Row -->
       <div class="row my-4">
-        
+
         <!-- /.col-lg-8 -->
         <div class="col-lg-4" style="color: white;">
 					<div class="container" style="justify-content: center; vertical-align: middle; margin-top: 15%">
@@ -93,19 +98,19 @@
 						<p>Welcome. I'm almost finished with the overhaul/complete re-design of the website. Since the project is nearing <i style="color: lime">BETA</i> completion, I've decided to start uploading the files from the project domain for you all to enjoy.</p>
 						<p><a style="color: orange;">If you're one of the team leaders</a> and you want to know what you'll be working with, enter your password below to watch a video I've made showing important features you should get familiar with on the new build.</p>
 						<p style="color: deepskyblue;">* Password required to access this content.</p>
- 						<input id='password1' style="width: 70%; color: turquoise;" type="password" name="password" placeholder="Password">
+ 						<input id="password1" style="width: 70%; color: turquoise;" type="password" name="password" placeholder="Password">
 						<p style="font-size: 20px; color: turquoise" id="validate-status">Content: <b style="color: red">Locked</b> <i class="fas fa-lock"></i></p>
 					</div>
         </div>
 				<div class="col-lg-8">
-          <img class="img-fluid rounded" src="loading.gif" alt="" style="transform: scaleY(0.95)">
+          <img id="hide" class="img-fluid rounded" alt="" src="https://media1.tenor.com/images/61410e9c5c66ba51358bc498a76d25ad/tenor.gif?itemid=9295601" style="margin-left: 15%; margin-top: 10%;">
         </div>
         <!-- /.col-md-4 -->
       </div>
       <!-- /.row -->
 
       <!-- Content Row -->
-      <div class="row" style="margin-top: -20px;">
+      <div class="row hide1" style="margin-top: -20px;">
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <div class="card-body">
@@ -134,15 +139,15 @@
             <div class="card-body">
 							<h2 class="card-title">Images/GIF's</h2>
               <p class="card-text">Images and .gif's in circulation are currently stock photos, thanks to <a href="https://pexels.com/" target="_blank">pexels.com</a> for providing free, quality photography for use on the web.</p>
-							<div class="progress-bar green shine">
-    					<span style="width: 90%"></span>
+							<div class="progress-bar blue shine">
+    					<span style="width: 100%"></span>
 							</div>
 							</div>
             </div>
           </div>
         </div>
 
-			
+
         <!-- /.col-md-4 -->
       </div>
       <!-- /.row -->

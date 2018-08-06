@@ -24,7 +24,7 @@ function move3() {
 
 function validate() {
     "shschoirs2018" == $("#password1").val() ? ($("#validate-status").text("Password accepted. Redirecting ..."), window.setTimeout(function() {
-        window.location.replace("https://youtu.be/J1TYgWhVQPU");
+        window.location.replace("https://projectlotus.github.io/");
     }, 2e3)) : $("#validate-status").text("Password invalid.");
 }
 $(document).ready(function() {

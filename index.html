@@ -1,139 +1,393 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="John Doe">
     <meta name="description" content="">
-    <meta name="author" content="">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <title>SHS Choirs</title>
-		<link href="css/animate.min.css" rel="stylesheet" type="text/css">
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/font-animate.css" type="text/css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/small-business.css" rel="stylesheet">
-  </head>
-	<style>
-		@media only screen and (max-width: 1200px) {
-      .hide1 {
-        display: none;
-      }
-    }
-      .progress-bar {
-          background-color: #1a1a1a;
-          height: 30px;
-          padding: 5px;
-          width: 100%;
-          border-radius: 5px;
-          box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
-      }
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>SHS Choirs - Home</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-      .progress-bar span {
-          display: inline-block;
-          height: 100%;
-          border-radius: 3px;
-          box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
-          transition: width .4s ease-in-out;
-      }
-      .blue span {
-          background-color: deepskyblue;
-      }
+<body data-spy="scroll" data-target="#primary-menu" onload="typeWriter()">
 
-      .green span {
-          background-color: limegreen;
-          background-image: linear-gradient(top, #a5df41, #4ca916);
-      }
-      .shine span {
-          position: relative;
-      }
-
-      .shine span::after {
-          content: '';
-          opacity: 0;
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          background: #fff;
-          border-radius: 3px;
-          animation: animate-shine 2s ease-out infinite;
-      }
-
-      @keyframes animate-shine {
-          0% {opacity: 0; width: 0;}
-          50% {opacity: .5;}
-          100% {opacity: 0; width: 95%;}
-      }
-
-      	input[type=password] {
-          box-sizing: border-box;
-          border: 2px solid #ccc;
-          border-radius: 4px;
-          font-size: 16px;
-          padding: 12px 20px 12px 20px;
-      		-webkit-transition: width 0.4s ease-in-out;
-          transition: width 0.4s ease-in-out;
-      }
-      	input[type=password]:focus {
-      		width: 80% !important;
-      }
-	</style>
-  <body style="background-color: #1c1c1e" onload="move();move2();move3()">
-    <div class="container" style="">
-      <div class="row my-4" style="width: 100%; color: white; text-align: left;">
-					<div class="container" style="margin-top: 10%;">
-          <h1 style="margin-bottom: 20px;">Uploading Files</h1>
-						<p><b>Welcome.</b> I'm almost finished with the overhaul/complete re-design of the website.<br> Since the project is nearing <i style="color: lime">BETA</i> completion, I've decided to start uploading <br>the files from the project domain for you all to enjoy.</p>
-						<p><a style="color: orange;">If you're on leadership</a> and you want to get familiar with the new build, <br>enter your password below to gain access to the project site.</p>
-						<p style="color: deepskyblue;">* Password required to access this content.</p>
- 						<input id="password1" style="width: 50%;margin-bottom:7px; color: black;" type="password" name="password" placeholder="Password">
-						<p style="font-size: 20px; color: deepskyblue;" id="validate-status">Build Access: <i class="fas fa-lock"></i></p>
-					</div>
-      </div>
-      <div class="row hide1" style="margin-top: -20px;">
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title">Main Framework <i style="color: deepskyblue;" class="faa-spin animated"></i></h2>
-              <p class="card-text">Main framework files include HTML, CSS, JavaScript, jQuery requests &amp; libraries, .gitignore &amp; .travis files, and a small readme.md file for the GitHub Repository.</p>
-							<div class="progress-bar green shine">
-    					<span style="width: 64%"></span>
-							</div>
-						</div>
-          </div>
+		<!--Preloader-->
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
         </div>
-        <!-- /.col-md-4 -->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <div class="card-body">
-							<h2 class="card-title">Plugins/Vendor</h2>
-              <p class="card-text">Plugins and vendor script usage include Font Awesome Icons, Animate.css, wow.min.js, jQuery pre-loaders, any and all .json files, and package-lock.json.</p>
-							<div class="progress-bar green shine">
-    					<span style="width: 45%"></span>
-							</div>
-							</div>
+    </div>
+		<!--Preloader/-->
+
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#home-page" class="navbar-brand logo">
+                    <h2 class="questrial-font" style="font-size: 30px"><i class="fas fa-music" style="font-size: 22px;"></i> shs choirs</h2>
+                </a>
             </div>
-          </div>
-				<div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <div class="card-body">
-							<h2 class="card-title">Images/GIF's</h2>
-              <p class="card-text">Images and .gif's in circulation are currently stock photos, thanks to <a href="https://pexels.com/" target="_blank">pexels.com</a> for providing free, quality photography for use on the web.</p>
-							<div class="progress-bar blue shine">
-    					<span style="width: 100%"></span>
-							</div>
-							</div>
-            </div>
-          </div>
+            <!--Logo/-->
+            <nav class="collapse navbar-collapse" id="primary-menu" style="font-size: 18px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active questrial-font"><a href="#home-page">Home</a></li>
+                    <li><a href="#service-page" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 0ms">Services</a></li>
+                    <li><a href="#about-page" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 50ms">About</a></li>
+									  <li><a href="#events-page" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 100ms">Events</a></li>
+                    <li><a href="team.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 150ms">Team</a></li>
+									  <li><a href="store.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 200ms">Store</a></li>
+									  <li><a href="faq.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 250ms">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
-        <!-- /.col-md-4 -->
-      </div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		  <script src="main.js"></script>
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  </body>
+    </div>
+    <!--Mainmenu-area/-->
+
+    <!--Header-area-->
+    <header onload="typeWriter()" class="header-area overlay full-height relative v-center" id="home-page">
+        <div class="absolute angle-bg"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text">
+                    <h1 style="font-size: 350%; font-family: Questrial;" class="wow fadeInDownBig">Sheldon Choirs</h1>
+                    <p style="font-size: 115%; font-family: Roboto;" id="demo"></p>
+									<a class="button white hover-eft" href="#openModal" style="font-family: Roboto; font-weight: 600;">Information<i class="fa fa-info-circle" style="font-size: 100%;"></i></a>
+									<div id="openModal" class="modalbg">
+  									<div class="dialog">
+    									<a href="#close" title="Close" class="close">X</a>
+  										<h2 style="padding-top: 15px; padding-bottom: 0;color: black; font-family: Questrial;">Welcome.</h2>
+											<p style="color: black; font-family: Roboto;">
+                        While I have given general access to most areas of this site, some features remain unfinished
+                        and are a work in progress. Please feel free to explore what is currently available,
+                        as some drastic changes will occur. This message will continue to appear until August 28th, 2018.</p>
+											<p style="color: black; font-family: Roboto;">Thanks for your patience in advance.</p>
+    									<p style="color: black; font-family: Roboto;" class="fineprint">p.s. mobile users will experience some major differences for a little bit.</p>
+										</div>
+									</div>
+                </div>
+            </div>
+        </div>
+			<a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" id="hideContact"></a>
+    </header>
+    <!--Header-area/-->
+
+    <!--Services-area-->
+    <section class="gray-bg section-padding test" id="service-page">
+        <div class="container">
+					<div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2 style="text-transform: none; font-size: 300%; font-family: Questrial !important;">Choir Services</h2>
+                        <p style="font-size: 20px; font-family: Roboto">Explore recent news, browse merchandise, and more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+									<a href="news.html">
+                    <div class="box bdr-btm">
+                        <div class="box-icon">
+                            <img src="images/service-icon-3.png" alt="" style="border-radius: 10px;">
+                        </div>
+                        <h4 style="font-family: Questrial;">Choir News</h4>
+                        <p style="font-family: Questrial;">Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+									</a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+									<a href="store.html">
+                    <div class="box bdr-btm">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-6.png" alt="" style="border-radius: 10px;">
+                        </div>
+                        <h4 style="font-family: Questrial;">Online Store</h4>
+                        <p style="font-family: Questrial;">Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+									</a>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+									<a href="#about-page">
+										<div class="box bdr-btm">
+                        <div class="box-icon">
+                            <img src="images/service-icon-1.png" alt="" style="border-radius: 10px;">
+                        </div>
+                        <h4 style="font-family: Questrial;"> Current Events</h4>
+                        <p style="font-family: Questrial;">Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+									</a>
+                </div>
+            </div>
+        </div>
+    </section>
+		<!--Services-area/-->
+
+		<!--About-area-->
+		<section class="angle-bg section-padding" id="about-page" style="height: 1000px; background: #232526;
+      background: -webkit-linear-gradient(to right, #232526, #414345);
+      background: linear-gradient(to right, #232526, #414345);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2 class="questrial-font" style="color: lightseagreen;">Concert Choir</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p class="questrial-font" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button hover-eft questrial-font">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2 class="questrial-font" style="color: lightseagreen;">Vocal Ensemble</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p class="questrial-font" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button hover-eft questrial-font">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/350x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2 class="questrial-font" style="color: lightseagreen;">Treble Choir</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p class="questrial-font" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button hover-eft questrial-font">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2 class="questrial-font" style="color: lightseagreen;">CRC Chorus</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p class="questrial-font" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button hover-eft questrial-font" style="color: orange;">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="http://via.placeholder.com/250x350" alt="" style="border-radius: 10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators caption-indector remove">
+                            <li style="color: lightseagreen;" data-target="#caption_slide" data-slide-to="0" class="active">
+                                <strong style="color: white;">Concert Choir </strong>82 Singers
+                            </li>
+                            <li style="color: lightseagreen;" data-target="#caption_slide" data-slide-to="1">
+                                <strong style="color: white;">Vocal Ensemble </strong>36 Singers
+                            </li>
+                            <li style="color: lightseagreen;" data-target="#caption_slide" data-slide-to="2">
+                                <strong style="color: white;">Treble Choir </strong>29 Singers
+                            </li>
+                            <li style="color: lightseagreen;" data-target="#caption_slide" data-slide-to="3">
+                                <strong style="color: white;">CRC Chorus </strong>20 Singers
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+		<!--About-area/-->
+
+		<!--Events-area-->
+    <section class="section-padding gray-bg" id="events-page">
+        <div class="container">
+          <div class="page-title" style="text-align: center;">
+              <h2 style="text-transform: none; font-size: 300%; font-family: Questrial;">Upcoming &amp; Recent Events</h2>
+              <p style="font-size: 20px;font-family: Roboto;">View recent and upcoming events.</p>
+          </div>
+          <div class="card-column container event-size" style="width: 100%;border-radius: 10px; margin-top: -30px;">
+
+
+
+              <article class="card container event-size" style="margin-bottom: 50px; width: 100%;">
+                  <section class="card-content event-card-style" style="border-radius: 10px;">
+                    <header class="card-header">
+                      <p class="card-subtitle" style="font-family: 'open sans' !important;color: orange; font-weight: 700">
+                        Performance
+                      </p>
+                        <h2 class="card-title" style="padding-bottom: 20px;">
+                          <a href="#">Fall Concert 2018</a>
+                        </h2>
+                    </header>
+                  <section class="card-body" style="border-radius: 10px;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a sem pellentesque,
+                    dignissim nisl non, eleifend mi. Morbi congue blandit dignissim.
+                    Proin ac risus eu dui dignissim rhoncus ut in lorem.
+                    Nunc dapibus faucibus nunc, eget vehicula elit sagittis at.
+                    Vivamus eget nisl non sapien malesuada cursus.</p>
+                    <div class="post-footer">
+                    <p class="read-more" style="color: white;text-align:left;padding-bottom: 10px;">
+                      <i class="far fa-calendar-alt"></i> &nbsp;November 11, 2018 &nbsp;
+                      <i class="far fa-user"></i>&nbsp; First Last
+                    </p>
+                    </div>
+                  </section>
+                </section>
+              </article>
+
+
+
+             <article class="card container event-size" style="border-radius: 10px !important; width: 100%;">
+              <section class="card-content event-card-style" style="border-radius: 10px;">
+
+                <header class="card-header">
+                  <p class="card-subtitle" style="color:deepskyblue;font-weight:700;">
+                    Fundraiser
+                  </p>
+                  <h2 class="card-title" style="padding-bottom: 20px !important;">
+                    <a href="#">Tri-Tip Dinner Fundraiser</a>
+                </h2>
+                </header>
+                <section class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque a sem pellentesque, dignissim nisl non, eleifend mi.
+                    Morbi congue blandit dignissim. Proin ac risus eu dui dignissim rhoncus ut in lorem.
+                    Nunc dapibus faucibus nunc, eget vehicula elit sagittis at.
+                    Vivamus eget nisl non sapien malesuada cursus.</p>
+                    <div class="post-footer">
+                    <p class="read-more" style="color: white;text-align: left;">
+                      <i class="far fa-calendar-alt"></i> &nbsp;October 13 - November 9, 2018 &nbsp;
+                      <i class="far fa-user"></i>&nbsp; First Last
+                    </p>
+                    </div>
+                </section>
+              </section>
+              </article>
+        </div>
+        </div>
+      </section>
+		<!--Events-area/-->
+
+    <!--Footer-area-->
+    <footer>
+      <p>&copy; <a target="_blank" style="color: deepskyblue;" href="https://ryan-farruggia.github.io/">Ryan Farruggia</a> 2018-2019</p>
+    </footer>
+    <!--Footer-area/-->
+
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
+		<script>
+        	  var i = 0;
+            var txt = 'Welcome to our new website! We\'ve been preparing a ton of new and fresh stuff for you to enjoy, and we appreciate your patience as large aspects of this site are still under construction.';
+            var speed = 10;
+
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+	  </script>
+</body>
+
 </html>

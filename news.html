@@ -91,27 +91,27 @@
           <!--Payment Dates-->
 
           <div class="media mb-4">
-            <div class="media-body" style="opacity: 0.6;">
+            <div class="media-body" style="opacity:0.6;">
               <h4 class="mt-0">September 17, 2018 <i class="far fa-check-circle" style="color: limegreen;"></i></h4>
               <h5>$200.00 (Airline Deposit Included)</h5>
             </div>
           </div>
           <div class="media mb-4">
-              <div class="media-body" style="opacity: 0.6;">
+              <div class="media-body" style="opacity:0.6;">
                 <h4 class="mt-0">October 5, 2018 <i class="far fa-check-circle" style="color: limegreen;"></i></h4>
                 <h5>$384.00</h5>
               </div>
             </div>
             <div class="media mb-4">
 
-                <div class="media-body" style="opacity: 0.6;">
+                <div class="media-body" style="opacity:0.6;">
                   <h4 class="mt-0">November 2, 2018 <i class="far fa-check-circle" style="color: limegreen;"></i></h4>
                   <h5>$350.00</h5>
                 </div>
               </div>
               <div class="media mb-4">
   
-                  <div class="media-body" style="opacity: 0.6;">
+                  <div class="media-body" style="opacity:0.6;">
                     <h4 class="mt-0">December 7, 2018 <i class="far fa-check-circle" style="color: limegreen;"></i></h4>
                     <h5>$350.00</h5>
                   </div>
@@ -119,9 +119,12 @@
                 <div class="media mb-4">
     
                     <div class="media-body">
-                      <h4 class="mt-0">January 11, 2019</h4>
-                      <h5>$375.00</h5>
-                      <h6 style="font-size: 20px;"><i class="far fa-clock" style="color: dodgerblue;"></i> <span id="demo" style="color: lightseagreen;"></span></h6>
+                      <h4 class="mt-0" style="opacity:0.6;">January 11, 2019 <i class="far fa-check-circle" style="color: limegreen;"></i></h4>
+                      <h5 style="opacity:0.6;">$375.00</h5>
+                      <h6 style="font-size: 20px;">
+                        <i class="far fa-clock" style="color: dodgerblue;"></i> 
+                        <span id="demo" style="color: lightseagreen;"></span>
+                      </h6>
                     </div>
                   </div>
                   <hr>
@@ -220,8 +223,8 @@
           // If the count down is over, write some text 
           if (distance < 0) {
               clearInterval(x);
-              document.getElementById("demo").innerHTML = "DEADLINE EXPIRED";
+              document.getElementById("demo").innerHTML = "FINAL DEADLINE EXPIRED";
           }
       }, 1000);
-      </script>
+  </script>
 </html>

@@ -1,179 +1,294 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112617768-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <meta charset="utf-8">
+  <title>Sheldon Choirs</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-        gtag('config', 'UA-112617768-2');
-    </script>
-    <meta charset="utf-8">
-    <meta name="author" content="John Doe">
-    <meta name="description" content="The Sheldon Choir - A highly established group of singers from Sheldon High School">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>SHS Choirs - Home</title>
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/svg" href="images/note.svg">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Favicons -->
+  <link href="img/choirlogo.jpg" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
 
-<body data-spy="scroll" data-target="#primary-menu" onload="typeWriter()">
+<body>
 
-	<!--Preloader-->
-    <div class="preloader">
-        <div class="sk-folding-cube">
-            <div class="sk-cube1 sk-cube"></div>
-            <div class="sk-cube2 sk-cube"></div>
-            <div class="sk-cube4 sk-cube"></div>
-            <div class="sk-cube3 sk-cube"></div>
-        </div>
+  <!--Header-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h2 class="scrollto" style="color:lightseagreen;">
+          <img src="img/choirlogo.jpg" alt="" title=""><b><a href="#intro">&nbsp;Sheldon Choirs</a></b></h2>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Events</a></li>
+          <li><a href="#schedule">Concerts</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Leadership</a></li>
+          <li class="buy-tickets"><a href="#buy-tickets">Buy Merch</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
     </div>
-	<!--Preloader/-->
+  </header>
 
-    <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
-        <div class="container">
-            <!--Logo-->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#home-page" class="navbar-brand logo">
-                    <h2 class="questrial-font" style="font-size: 30px"><i class="fas fa-music" style="font-size: 22px;"></i> shs choirs</h2>
-                </a>
-            </div>
-            <!--Logo/-->
-            <nav class="collapse navbar-collapse" id="primary-menu" style="font-size: 18px;">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active questrial-font"><a href="#home-page">Home</a></li>
-                    <li><a href="index.html#services-page" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 0ms">Services</a></li>
-                    <li><a href="about.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 50ms">About</a></li>
-                    <li><a href="team.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 100ms">Team</a></li>
-                    <li><a href="store.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 150ms">Store <i class="fas fa-wrench"></i></a></li>
-                    <li><a href="events.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 200ms">Events</a></li>
-					<li><a href="watch.html" class="animated slideInLeft nav-anim questrial-font" style="animation-delay: 250ms">Watch</a></li>
-                </ul>
-            </nav>
-        </div>
+  <!--Intro-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <h1 class="mb-4 pb-0"><span>Sheldon Choirs</span> Website<br> Being Re-Designed</h1>
+      <p class="mb-4 pb-0">See below for more information on scheduled updates.</p>
+      <p><i><u>Here's some fantastic music to hold you over:</u></i></p>
+      <a href="https://www.youtube.com/watch?v=O8nMIHAD70Q&feature=youtu.be" class="venobox play-btn mb-4" data-vbtype="video"
+        data-autoplay="true"></a>
+      <a href="#about" class="about-btn scrollto">Developer Notes & Updates</a>
     </div>
-    <!--Mainmenu-area/-->
+  </section>
 
-    <!--Header-area-->
-    <header onload="typeWriter()" class="header-area overlay full-height relative v-center" id="home-page">
-        <div class="absolute angle-bg"></div>
-        <div class="container">
-            <div class="row v-center">
-                <div class="col-xs-12 col-md-7 header-text">
-                    <h1 style="font-size: 350%; font-family: Questrial;" class="wow fadeInDownBig">Sheldon Choirs</h1>
-                    <p class="wow slideInUp" style="font-size: 115%; font-family: Roboto;" id="demo">
-                        Welcome to our new website! 
-                        We appreciate your patience as some areas of this site remain under construction and some drastic changes may occur.</p>
-                    <a class="button white hover-eft" href="https://youtu.be/O8nMIHAD70Q" target="_blank" style="text-align: center;vertical-align: middle;font-family: Roboto; font-weight: 600; font-size: 20px;">
-                        Featured: 
-                        O Aula Nobilis
-                    <i class="fab fa-youtube" style="font-size: 150%;color: red; text-align: center; vertical-align: -3px;"></i></a>
-                </div>
-            </div>
+  <main id="main">
+
+  <!--About-->
+  <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Developer Notes</h2>
+            <p>So, it's a new year and it's high time for a new look and further improvements to this site's functionality and design.
+               I'm excited to use a hoard of new skills I've obtained over Winter Break and enhance user experience to a whole new level.
+               However, expect there to be some delays here and there, as I'm also quite busy with school and other important matters in addition to this project.
+               <br>
+               <br>
+               <i>Cheers,</i>
+               <br>
+               <br>
+               <b>- R</b>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Contact</h3>
+            <p><b>E-mail</b>: <a href="">rfarruggia99@gmail.com</a></p>
+          </div>
+          <div class="col-lg-3">
+            <h3>Old Website Build</h3>
+            <p>In case there's info you missed or needed, I've uploaded the website to a separate project domain: 
+              <br>
+              <br>
+              <a href="https://projectlotus.github.io/">projectlotus.github.io</a>
+            </p>
+          </div>
         </div>
-			<a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" id="hideContact"></a>
-    </header>
-    <!--Header-area/-->
+      </div>
+  </section>
 
-    <!--Services-area-->
-    <section class="gray-bg section-padding test" id="services-page">
-        <div class="container">
-					<div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2 style="text-transform: none; font-size: 300%; font-family: Questrial !important;">Choir Services</h2>
-                        <p style="font-size: 20px; font-family: Roboto">Explore recent news, browse merchandise, and more.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-4">
-									<a href="news.html">
-                    <div class="box bdr-btm">
-                        <div class="box-icon">
-                            <img src="images/service-icon-3.png" alt="" style="border-radius: 10px;">
-                        </div>
-                        <h4 style="font-family: Questrial;">London Payment Plan</h4>
-                        <p style="font-family: Questrial;">Hello Vocal Ensemble Families, We are asking for you to pay by the 17th as we have to send a credit card payment on the 18th...<br> <b>Click for more information.</b></p>
-                    </div>
-									</a>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-									<a href="store.html">
-                    <div class="box bdr-btm">
-                        <div class="box-icon">
-                            <img src="images/portfolio-icon-6.png" alt="" style="border-radius: 10px;">
-                        </div>
-                        <h4 style="font-family: Questrial;">Online Store</h4>
-                        <p style="font-family: Questrial;">Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
-                    </div>
-									</a>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-									<a href="events.html">
-										<div class="box bdr-btm">
-                        <div class="box-icon">
-                            <img src="images/service-icon-1.png" alt="" style="border-radius: 10px;">
-                        </div>
-                        <h4 style="font-family: Questrial;"> Upcoming Events</h4>
-                        <p style="font-family: Questrial;">Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
-                    </div>
-									</a>
-                </div>
-            </div>
+  <!--Schedule-->
+  <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2 style="text-transform: none;">Updates and Fixes</h2>
+          <p>Here's everything I've tested, fixed or changed.</p>
         </div>
-    </section>
-	<!--Services-area/-->
 
-    <!--Footer-area-->
-    <footer>
-      <p>&copy; <a target="_blank" style="color: deepskyblue;" href="https://ryan-farruggia.github.io/">Ryan Farruggia</a> 2018-2019</p>
-    </footer>
-    <!--Footer-area/-->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#bug-fixes" role="tab" data-toggle="tab">Bug Fixes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#frontEnd" role="tab" data-toggle="tab">Frontend</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#backEnd" role="tab" data-toggle="tab">Backend</a>
+          </li>
+        </ul>
 
-    <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+        <h2 class="sub-heading">Most changes listed are in the FINAL build, which is to be uploaded in the near future.</h2>
+
+        <div class="tab-content row justify-content-center">
+
+          <!-- Bug Fixes -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="bug-fixes">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM<br>12/30/18</time></div>
+              <div class="col-md-10">
+                <h4>Domain Registration Renewal</h4>
+                <p>The domain: "sheldonchoir.tk" has been renewed for another 12 months.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/15/19</time></div>
+              <div class="col-md-10">
+                <h4>Dependency Fix <span>'The ho-ek Dependency'</span></h4>
+                <p>Replaced the outdated build with an updated version.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM<br>1/22/19</time></div>
+              <div class="col-md-10">
+                <h4>jQuery Links Repaired</h4>
+                <p>Fixed an issue where links to external jQuery CDN's were incorrectly typed.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/28/19</time></div>
+              <div class="col-md-10">
+                <h4>jQuery Migration 1.1.2<span> 'jQuery-Migrate.min.js'</span></h4>
+                <p>Installed a migration script to support multiple jQuery CDN requests.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Front End -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="frontEnd">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>12:30 AM<br>1/13/19</time></div>
+              <div class="col-md-10">
+                <h4>Less Sucky Navigation Bar</h4>
+                <p>Navigation actually works and is much more responsive on mobile phones.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM<br>1/25/19</time></div>
+              <div class="col-md-10">
+                <h4>Merch Store Created <span>'Buy Merch'</span></h4>
+                <p>Ability for users to purchase merchandise through PayPal now fully functional.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>6:30 PM<br>1/31/19</time></div>
+              <div class="col-md-10">
+                <h4>Events and Concerts Separated</h4>
+                <p>To reduce clutter and improve organization.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>2/1/19</time></div>
+              <div class="col-md-10">
+                <h4>Updated Leadership Section</h4>
+                <p>Cleaner, more responsive, and easier to navigate.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>2/3/19</time></div>
+              <div class="col-md-10">
+                <h4>Added a Photo Gallery <span>'Optional'</span></h4>
+                <p>In case certain photography is worthy of digital documentation.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Back End -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="backEnd">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/4/19</time></div>
+              <div class="col-md-10">
+                <h4>Added Super Fish JS <span>'superfish.min.js'</span></h4>
+                <p>Increased reliability on mobile networks and optimizations for 5G network users.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/4/19</time></div>
+              <div class="col-md-10">
+                <h4>Added Venobox JS <span>'venobox.min.js'</span></h4>
+                <p>Better smoothing on CSS properties/animations such as 'box-shadow' and '@keyframes'.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/4/19</time></div>
+              <div class="col-md-10">
+                <h4>Added Easing JS <span>'easing.min.js'</span></h4>
+                <p>Basic animating infrastructure for animating with JavaScript rather than CSS.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/15/19</time></div>
+              <div class="col-md-10">
+                <h4>Added Owl Carousel AJAX <span>'owl.carousel.min.js'</span></h4>
+                <p>Improved AJAX loader to greatly decrease page loading times.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>1/15/19</time></div>
+              <div class="col-md-10">
+                <h4>Added re-CAPTCHA 3.0 <span>'Unnecessary Spam'</span></h4>
+                <p>New re-CAPTCHA system runs in background, rather than having user click-to-verify.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+  </section>
+
+  </main>
+
+  <!--Footer-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Ryan Farruggia 2017-2019</strong>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+    
 </body>
 
 </html>

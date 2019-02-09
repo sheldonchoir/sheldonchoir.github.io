@@ -1,13 +1,9 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  .shorten {
+    padding: 10px 17px 10px 17px !important;
+    border-radius: 15px !important;
+  }
+}
 
 body {
   background: #fff;

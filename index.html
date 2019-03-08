@@ -1,278 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Sheldon Choirs</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
   <!-- Favicons -->
   <link href="img/choirlogo.jpg" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
-
 <body>
 
   <!--Header-->
   <header id="header">
     <div class="container">
-
-      <div id="logo" class="pull-left">
+      <div id="logo" class="pull-left" style="background-color:transparent !important;">
         <h2 class="scrollto" style="color:lightseagreen;">
-          <img src="img/choirlogo.jpg" alt="" title=""><b><a href="#intro">&nbsp;Sheldon Choirs</a></b></h2>
+          <img src="img/choirlogo.png" alt="" title="" style="margin-bottom:5px;">
+          <b>
+            <a href="#intro" class="scrollto">
+            Sheldon Choirs
+            </a>
+          </b>
+        </h2>
       </div>
-
+      <!--Navigation-->
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Events</a></li>
-          <li><a href="#schedule">Concerts</a></li>
+          <li><a href="#concerts">Concerts</a></li>
+          <li><a href="#team">Leadership</a></li>
+          <li><a href="#find-us">Find Us</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#contact">Leadership</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Buy Merch</a></li>
+          <li><a href="#about">News</a></li>
+          <li class="buy-tickets"><a href="construction-page.html">Buy Merch</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav>
     </div>
   </header>
 
   <!--Intro-->
   <section id="intro">
-    <div class="intro-container wow fadeIn font-interchange">
-      <h1 class="mb-4 pb-0"><span>Sheldon Choirs</span> Website<br> Being Re-Designed</h1>
-      <p class="mb-4 pb-0">See below for more information on scheduled updates.</p>
-      <p><i><u>Here's some fantastic music to hold you over:</u></i></p>
-      <a href="https://www.youtube.com/watch?v=O8nMIHAD70Q&feature=youtu.be" class="venobox play-btn mb-4 play-button" data-vbtype="video"
-        data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">Developer Notes & Updates</a>
+    <div class="intro-container wow fadeIn">
+      <h1 class="mb-4 pb-0" style="text-transform:none;">Welcome to the <span>Sheldon Choir</span></h1>
+      <p class="mb-4 pb-0">Click below to listen: O Aula Nobilis</p>
+      <a href="https://www.youtube.com/watch?v=O8nMIHAD70Q&feature=youtu.be" class="venobox play-btn mb-4" data-vbtype="video"
+         data-autoplay="true"></a>
+      <div class="button-slide slide-inside" style="letter-spacing:0;">
+        <a href="#concerts" class="scrollto" style="color:white;">
+        See What's New
+        </a>
+      </div>
     </div>
   </section>
 
   <main id="main">
+  
+  <!--Concerts-->
+  <section id="concerts" class="section-with-bg wow fadeInUp">
+          <div class="container">
+    
+            <div class="section-header">
+              <h2 style="text-transform:none;color:#000">Concerts</h2>
+              <p>View upcoming concerts</p>
+            </div>
+            <!-- Other two previous concerts (add an ending /div at the end of this section to finish the "row" class)
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card mb-5 mb-lg-0">
+                  <div class="card-body">
+                    <h4 class="card-title text-muted text-uppercase text-center">Winter Concert</h4>
+                    <h4 class="text-center">December 18, 2018</h4>
+                    <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-map-marker-alt red"></i></span>Performing Arts Center</li>
+                      <li><span class="fa-li"><i class="fas fa-clock blue"></i></span>Concert Begins: 7:00 PM</li>
+                      <li><span class="fa-li"><i class="fas fa-tags purple"></i></span>Concert, Vocal, Treble</li>
+                      <li><span class="fa-li"><i class="fas fa-user-tie"></i></span>Formal Dress</li>
+                      <li><span class="fa-li"><i class="fas fa-question-circle green"></i></span>Call - 5:30 PM</li>
+                    </ul>
+                    <hr>
+                    <div class="text-center">
+                      <i class="far fa-calendar-check"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card mb-5 mb-lg-0">
+                    <div class="card-body">
+                      <h4 class="card-title text-muted text-uppercase text-center">Chamber Concert</h4>
+                      <h4 class="text-center">March 7, 2019</h4>
+                      <hr>
+                      <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-map-marker-alt red"></i></span>Performing Arts Center</li>
+                        <li><span class="fa-li"><i class="fas fa-clock blue"></i></span>Concert Begins: 7:00 PM</li>
+                        <li><span class="fa-li"><i class="fas fa-tags purple"></i></span>Concert Choir &amp; Vocal Ensemble</li>
+                        <li><span class="fa-li"><i class="fas fa-user-tie"></i></span>Formal Dress</li>
+                        <li><span class="fa-li"><i class="fas fa-question-circle green"></i></span>Call - 5:30 PM</li>
+                      </ul>
+                      <hr>
+                      <div class="text-center">
+                          <i class="fas fa-calendar-day"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              -->
+              <div class="col-lg-4 container">
+                <div class="card mb-5 mb-lg-0">
+                  <div class="card-body">
+                    <h4 class="card-title text-muted text-uppercase text-center">Spring Farewell Concert</h4>
+                    <h4 class="text-center">May 16, 2019</h4>
+                    <hr>
+                    <ul class="fa-ul">
+                      <li><span class="fa-li"><i class="fas fa-map-marker-alt red"></i></span>Performing Arts Center</li>
+                      <li><span class="fa-li"><i class="fas fa-clock blue"></i></span>Concert Begins: 7:00 PM</li>
+                      <li><span class="fa-li"><i class="fas fa-tags teal"></i></span>Concert Choir &amp; Vocal Ensemble</li>
+                      <li><span class="fa-li"><i class="fas fa-user-tie"></i></span>Formal Dress</li>
+                      <li><span class="fa-li"><i class="fas fa-question-circle green"></i></span>Call - 5:30 PM</li>
+                    </ul>
+                    <hr>
+                    <div class="text-center">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </p>
+            </div>
+    
+  </section>
 
-  <!--About-->
-  <section id="about">
-      <div class="container">
+  <!--Merchandise-->
+  <section id="merchandise">
+    <div class="container wow fadeInUp">
+      <div class="section-header" style="margin-bottom: 0;">
+        <h2 style="text-transform:none;">Buy Merchandise</h2>
+        <p>Browse our official merchandise and support our singers!</p>
+      </div>
+      <div class="container" id="store-preview">
+
         <div class="row">
-          <div class="col-lg-6">
-            <h2>Developer Notes</h2>
-            <p>So, it's a new year and it's high time for a new look and further improvements to this site's functionality and design.
-               I'm excited to use a hoard of new skills I've obtained over Winter Break and enhance user experience to a whole new level.
-               However, expect there to be some delays here and there, as I'm also quite busy with school and other important matters in addition to this project.
-               <br>
-               <br>
-               <i>Cheers,</i>
-               <br>
-               <br>
-               <b>- R</b>
-            </p>
+
+          <div class="col-lg-4 col-md-6 merch merch-anim">
+            <div class="store-preview">
+              <div class="store-preview-img">
+                <img src="https://placehold.it/1050x800" alt="store-preview 1" class="img-fluid">
+              </div>
+              <h3><a href="#">Shop Item #1</a></h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p style="color:black;">Our Best Seller!</p>
+            </div>
           </div>
-          <div class="col-lg-3">
-            <h3>Contact</h3>
-            <p><b>E-mail</b>: <a href="">rfarruggia99@gmail.com</a></p>
+
+          <div class="col-lg-4 col-md-6 merch merch-anim" style="animation-delay:200ms;">
+            <div class="store-preview">
+              <div class="store-preview-img">
+                <img src="https://placehold.it/1050x800" alt="store-preview 2" class="img-fluid">
+              </div>
+              <h3><a href="#">Shop Item #2</a></h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p style="color:black;">Only ___ Left in Stock!</p>
+            </div>
           </div>
-          <div class="col-lg-3">
-            <h3>Old Website Build</h3>
-            <p>In case there's info you missed or needed, I've uploaded the website to a separate project domain: 
-              <br>
-              <br>
-              <a href="https://projectlotus.github.io/">projectlotus.github.io</a>
-            </p>
+
+          <div class="col-lg-4 col-md-6 merch merch-anim" style="animation-delay:400ms">
+            <div class="store-preview">
+              <div class="store-preview-img">
+                <img src="https://placehold.it/1050x800" alt="store-preview 3" class="img-fluid">
+              </div>
+              <h3><a href="#">Shop Item #3</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p style="color:black;">Show your Husky Pride!</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="form-row justify-content-center">
+          <div class="col-auto">
+            <button type="button" id="merch-btn" href="">Show Merchandise <i class="fas fa-tshirt"></i></button>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
-  <!--Schedule-->
-  <section id="schedule" class="section-with-bg">
-      <div class="container wow fadeInUp">
+  <!--Team-->
+  <section id="team" class="wow fadeInUp">
+      <div class="container">
         <div class="section-header">
-          <h2 style="text-transform: none;">Updates and Fixes</h2>
-          <p>Here's everything I've tested, fixed or changed.</p>
+          <h2 style="text-transform: none;">Our Leadership Team</h2>
+          <p>Meet our leadership team of talented and dedicated students</p>
         </div>
 
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active shorten" href="#bug-fixes" role="tab" data-toggle="tab" style="padding:10px 50px 10px 50px;">Bug Fixes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link shorten" href="#frontEnd" role="tab" data-toggle="tab" style="padding:10px 50px 10px 50px;">Frontend</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link shorten" href="#backEnd" role="tab" data-toggle="tab" style="padding:10px 50px 10px 50px;">Backend</a>
-          </li>
-        </ul>
-
-        <h2 class="sub-heading">Most changes listed are in the FINAL build, which is to be uploaded in the near future.</h2>
-
-        <div class="tab-content row justify-content-center">
-
-          <!-- Bug Fixes -->
-          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="bug-fixes">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>09:30 AM<br>12/30/18</time></div>
-              <div class="col-md-10">
-                <h4>Domain Registration Renewal</h4>
-                <p>The domain: "sheldonchoir.tk" has been renewed for another 12 months.</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="https://placehold.it/1920x1200" class="img-fluid">
+              <div class="details">
+                <h3><a href="member-details.html">Sariah Bryce</a></h3>
+                <p>President</p>
+                <div class="social">
+                </div>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/15/19</time></div>
-              <div class="col-md-10">
-                <h4>Dependency Fix <span>'The ho-ek Dependency'</span></h4>
-                <p>Replaced the outdated build with an updated version.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM<br>1/22/19</time></div>
-              <div class="col-md-10">
-                <h4>jQuery Links Repaired</h4>
-                <p>Fixed an issue where links to external jQuery CDN's were incorrectly typed.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/28/19</time></div>
-              <div class="col-md-10">
-                <h4>jQuery Migration 1.1.2<span> 'jQuery-Migrate.min.js'</span></h4>
-                <p>Installed a migration script to support multiple jQuery CDN requests.</p>
-              </div>
-            </div>
-
           </div>
-
-          <!-- Front End -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="frontEnd">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>12:30 AM<br>1/13/19</time></div>
-              <div class="col-md-10">
-                <h4>Less Sucky Navigation Bar</h4>
-                <p>Navigation actually works and is much more responsive on mobile phones.</p>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="https://placehold.it/1920x1200" class="img-fluid">
+              <div class="details">
+                <h3><a href="member-details.html">Thalia Reid</a></h3>
+                <p>Vice President</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>11:00 AM<br>1/25/19</time></div>
-              <div class="col-md-10">
-                <h4>Merch Store Created <span>'Buy Merch'</span></h4>
-                <p>Ability for users to purchase merchandise through PayPal now fully functional.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>6:30 PM<br>1/31/19</time></div>
-              <div class="col-md-10">
-                <h4>Events and Concerts Separated</h4>
-                <p>To reduce clutter and improve organization.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>2/1/19</time></div>
-              <div class="col-md-10">
-                <h4>Updated Leadership Section</h4>
-                <p>Cleaner, more responsive, and easier to navigate.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>2/3/19</time></div>
-              <div class="col-md-10">
-                <h4>Added a Photo Gallery <span>'Optional'</span></h4>
-                <p>In case certain photography is worthy of digital documentation.</p>
-              </div>
-            </div>
-
           </div>
-
-          <!-- Back End -->
-          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="backEnd">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/4/19</time></div>
-              <div class="col-md-10">
-                <h4>Added Super Fish JS <span>'superfish.min.js'</span></h4>
-                <p>Increased reliability on mobile networks and optimizations for 5G network users.</p>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="https://placehold.it/1920x1200" class="img-fluid">
+              <div class="details">
+                <h3><a href="member-details.html">Bethany Nguyen</a></h3>
+                <p>Treasurer</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
               </div>
             </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/4/19</time></div>
-              <div class="col-md-10">
-                <h4>Added Venobox JS <span>'venobox.min.js'</span></h4>
-                <p>Better smoothing on CSS properties/animations such as 'box-shadow' and '@keyframes'.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/4/19</time></div>
-              <div class="col-md-10">
-                <h4>Added Easing JS <span>'easing.min.js'</span></h4>
-                <p>Basic animating infrastructure for animating with JavaScript rather than CSS.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/15/19</time></div>
-              <div class="col-md-10">
-                <h4>Added Owl Carousel AJAX <span>'owl.carousel.min.js'</span></h4>
-                <p>Improved AJAX loader to greatly decrease page loading times.</p>
-              </div>
-            </div>
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>1/15/19</time></div>
-              <div class="col-md-10">
-                <h4>Added re-CAPTCHA 3.0 <span>'Unnecessary Spam'</span></h4>
-                <p>New re-CAPTCHA system runs in background, rather than having user click-to-verify.</p>
-              </div>
-            </div>
-
           </div>
-
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="https://placehold.it/1920x1200" class="img-fluid">
+              <div class="details">
+                <h3><a href="member-details.html">Miles McCain</a></h3>
+                <p>Tech Manager</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="https://placehold.it/1920x1200" class="img-fluid">
+              <div class="details">
+                <h3><a href="member-details.html">Nancy Camarillo</a></h3>
+                <p>Publicity</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="https://placehold.it/1920x1200" class="img-fluid">
+              <div class="details">
+                <h3><a href="member-details.html">Brenna McBride</a></h3>
+                <p>Stage Manager</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+              <div class="member">
+                <img src="https://placehold.it/1920x1200" class="img-fluid">
+                <div class="details">
+                  <h3><a href="member-details.html">Savannah Gomes</a></h3>
+                  <p>Women's Uniforms</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="member">
+                  <img src="https://placehold.it/1920x1200" class="img-fluid">
+                  <div class="details">
+                    <h3><a href="member-details.html">Sarah Wolff</a></h3>
+                    <p>Front of House</p>
+                    <div class="social">
+                      <a href=""><i class="fa fa-twitter"></i></a>
+                      <a href=""><i class="fa fa-facebook"></i></a>
+                      <a href=""><i class="fa fa-google-plus"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="member">
+                    <img src="https://placehold.it/1920x1200" class="img-fluid">
+                    <div class="details">
+                      <h3><a href="member-details.html">Anthony McBroom</a></h3>
+                      <p>Men's Uniforms</p>
+                      <div class="social">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         </div>
-
       </div>
 
   </section>
 
+  <!--Maps-->
+  <section id="find-us" class="wow fadeInUp">
+      <div class="container">
+          <div class="section-header">
+            <h2 style="text-transform: none;">Find Us</h2>
+            <p>Our Address and a Google Maps&trade; Integration</p>
+          </div>
+        </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.3795674693974!2d-121.34886544879159!3d38.45579757954136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac136f9ef4913%3A0x63b62fec6bc02b6a!2sSheldon+High+School!5e0!3m2!1sen!2sus!4v1551417575837" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+
+  <!--Gallery-->
+  <section id="gallery" class="wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2 style="text-transform:none;">Gallery</h2>
+          <p>
+            A collection of our most favorite memories
+          </p>
+        </div>
+      </div>
+      
+      <div class="owl-carousel gallery-carousel">
+        <a href="https://placehold.it/1000x780/" class="venobox" data-gall="gallery-carousel"><img src="https://placehold.it/1200x900/" alt=""></a>
+        <a href="https://placehold.it/1000x780/" class="venobox" data-gall="gallery-carousel"><img src="https://placehold.it/1200x900/" alt=""></a>
+        <a href="https://placehold.it/1000x780/" class="venobox" data-gall="gallery-carousel"><img src="https://placehold.it/1200x900/" alt=""></a>
+        <a href="https://placehold.it/1000x780/" class="venobox" data-gall="gallery-carousel"><img src="https://placehold.it/1200x900/" alt=""></a>
+        <a href="https://placehold.it/1000x780/" class="venobox" data-gall="gallery-carousel"><img src="https://placehold.it/1200x900/" alt=""></a>
+        <a href="https://placehold.it/1000x780/" class="venobox" data-gall="gallery-carousel"><img src="https://placehold.it/1200x900/" alt=""></a>
+      </div>
+
+  </section>
   </main>
+
+  <!--Developer Notes-->
+  <section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Developer Notes</h2>
+        <p>Okay, now that everything is cleaned up and all known bugs are fixed, I hope you enjoy the new design and functionalities that this build brings. As always, if you have any questions
+          or find a nasty bug, email me with the contact information I have provided.
+           <br>
+           <br>
+           <i>Cheers,</i>
+           <br>
+           <br>
+           <b>- R</b>
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <h3>Contact</h3>
+        <p><b>E-mail</b>: <a href="">rfarruggia99@gmail.com</a></p>
+      </div>
+      <div class="col-lg-3">
+        <h3>Old Website Build</h3>
+        <p>In case there's info you missed or needed, I've uploaded the website to a separate project domain: 
+          <br>
+          <br>
+          <a href="https://projectlotus.github.io/">projectlotus.github.io</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  </section>
 
   <!--Footer-->
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Ryan Farruggia 2017-2019</strong>
+        &copy; Copyright <strong><a target="_blank" href="https://ryan-farruggia.github.io/">Ryan Farruggia</a> 2017-2019</strong>
+        <br>
+        <br>
+        <i>Website Build v1.1.6</i>
       </div>
     </div>
-  </footer><!-- #footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-  <!-- JavaScript Libraries -->
+  <!--Libraries-->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -282,13 +456,19 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <!--Main scripts and externals-->
   <script src="js/main.js"></script>
-    
+  <script>
+    $(document).ready(function() {
+      $("#merch-btn").click(function() {
+        $('.merch-anim').toggleClass('merch-anim-active');
+        $('#merch-btn').hide();
+      });
+    });
+
+  </script>
+
 </body>
 
 </html>
